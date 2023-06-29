@@ -14,7 +14,7 @@
 * If it asks you if you want to install any dependencies type Y and enter to continue
 * If you get any other errors during installation reach out to Elisabeth
 #### Importing the Stats Packages to python
-Every time you create a new python file that you want to use the Stats Packages in you need to import them using these two lines of code (copy and paste into your code):
+* Every time you create a new python file that you want to use the Stats Packages in you need to import them using these two lines of code (copy and paste into your code):
 from Stats_Package.stats_descriptives_module import freqs, desc, desc_subcats, xtab_cols, xtab_rows, xtab_all 
 from Stats_Package.stats_analysis_module import chi_sq, chisq_posthoc_bon, ttest_1sample, ttest_2sample, ttest_paired, KW_shape_assumption, corr_pearson
 Import pandas as pd
